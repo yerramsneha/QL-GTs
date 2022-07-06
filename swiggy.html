@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>web application</title>
+<h1>Swiggy Website</h1>
+<style>
+h1{text-align:centre;color:darkgreen;font;family:cabria;}
+h2{text-align:centre;font;family:cabria;color:red}
+b{color:green;}
+p{text-align:center;}
+*{background-color:pink;}
+</style>
+<script type="text/javascript" src="msg.html"></script>
+</script>
+</head>
+<body>
+<p><a href="https://www.swiggy.com/" target="_blank">visit swiggy</a><p>
+<img src="img6.jpg"alt="swiggy logo" width="400"height="300">
+<h2>Register form</h2>
+<form action="link.html" target="_blank">
+Enter your FirstName: <input type="text"name="fname">
+<br>
+<br>
+Enter your LastName: <input type="text"name="lname">
+<br>
+<br>
+Enter your address: <textarea rows="2" cols="20"></textarea>
+<br>
+<br>
+Gender:<input type="radio" id="gender" name="gender" value="male"/>Male
+       <input type="radio" id="gender" name="gender" value="female"/>Female
+<br>
+<br>
+
+
+DOB:<input type="data"name"=dob"><br><br>
+
+tel no:<input type="tel"name="tel"><br><br>
+
+Enter your email:<input type="text"name="email"><br><br>
+
+Enter your password;<input type="password"name="password"><br><br>
+<input type="submit" value="submit">
+<input type="reset" value="reset">
+
+</field>
+</form>
+<br>
+<br>
+<h2>login form</h2>
+<script type="text/javascript">
+function matchpass(){
+var firstpassword=document.f1.password.value;
+var secondpassword=document.f1.password2.value;
+if(firstpassword==secondpassword)
+{
+return true;
+}
+else{
+alert("password must be same");
+return false;
+}
+}
+</script>
+
+<form name="f1" action="register.jsp" onsubmit="return matchpass()">
+Email:<input type="text" name="email"><br><br>
+Password:<input type="password" name="password"/><br><br>
+Re-enter password:<input type="password" name="password" name="password"/><br><br>
+<input type="submit">
+<input type="reset">
+</form>
+
+<article>
+<h2>About Swiggy</h2>
+<b>Information about swiggy</b>
+<p>In 2013, the two founders, Sriharsha Majety and Nandan Reddy, designed an e-commerce website called Bundl to facilitate courier service and shipping within India.
+Bundl was halted, and was rebranded to enter the food delivery market.
+In early 2019, Swiggy expanded into general product deliveries under the name Swiggy Stores, sourcing items from local stores.
+In September 2019, Swiggy launched instant pickup/dropoff service Swiggy Go.
+In April 2020, it rebranded Swiggy Go as Swiggy Genie.
+In May 2020, Swiggy laid off 1100 employees during the COVID-19 pandemic
+In 2021, the company announced that it would cover the vaccination cost for its delivery partners.
+In March 2021, Swiggy set up Health Hub across Chennai, Tamil Nadu</p>
+</article>
+
+<h2>DATA</h2>
+
+
+<style>
+table,td,th{
+border:1px solid black}
+th,td{
+paddig:20px}
+table{
+background-color:gray}
+th,td{color: black}
+</style>
+<body>
+<table>
+<tr>
+<th>product name</th>
+<th>customer name</th>
+<th>customer no</th>
+<th>order no</th>
+<th>delivery address</th>
+</tr>
+<tr>
+<td>veg biryani</td>
+<td>akhi</td>
+<td>6305237387</td>
+<td>101</td>
+<td>akkayapalem</td>
+</tr>
+<tr>
+<td>friedrice</td>
+<td>teja</td>
+<td>9305237387</td>
+<td>102</td>
+<td>kancherapalem</td>
+</tr>
+<tr>
+<td>chicken biryani</td>
+<td>charan</td>
+<td>8505237387</td>
+<td>103</td>
+<td>dabagardens</td>
+</tr>
+<tr>
+</table>
+<h2>Audio element of Swiggy</h2>
+<p>click on play button to play the audio</p>
+<audio controls>
+<source src="audio1.mp3"type="audio/mpeg">
+your browser does not support audio
+</audio>
+
+<h2>Video element of Swiggy</h2>
+<p>click on play button to play the video</p>
+<video width="300" height="200" controls>
+<source src="video1.mp4"type="video/mp4">
+your browser does not support video
+</video>
+<br>
+<br>
+<h2>Swiggy Web services</h2>
+<script>
+document.write("Swiggy is best app for food delivery")
+</script>
+<br>
+<br>
+<form>
+<input type="button" value="click" onclick="msg()"/>
+</form>
+</body>
+</html>
+
