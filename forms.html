@@ -1,59 +1,48 @@
-<!DOCTYPE>
+<!document html>
 <html>
     <head>
-        <style>
-
-            body 
-            {
-             background-image: url('formsbackground.jpg');
-             background-repeat: no-repeat;
-             background-attachment: fixed;
-             background-size: cover;
+        <script type="text/javascript">
+            function matchpass(){
+                var firstpassword=document.f1.password.value;
+                var secondpassword=document.f1.password2.value;
+                  
+                if(firstpassword==secondpassword){
+                return true;
             }
-        </style>
-    </head>
-<body>
- 
-    
-<h2> TEXT INPUT FIELD </h2>
-<form action="fieldset.html" target="_blank">
-Enter your Firstname: <input type= "text" name="fname">
-<br>
-<br>
-Enter your Middlename: <input type= "text" name="Mname">
-<br>
-<br>
-Enter your lastname: <input type= "text" name="lname">
-<br>
-<br>
-Enter your old address: <textarea rows="3" cols="30"></textarea>
-<br>
-<br>
-Enter your new address: <textarea rows="3" cols="30"></textarea>
+            else{
+             alert("password must be same!");
+             return false;
+            }
+        }
+        </script> 
 
-<h3>Label tag </h3>
-<Label for="Mname">Enter your Mothername: </Label> <input type= "text" name="Mname">
-<br>
-<br>
-<Label for="Mname">Enter your Fathername: </Label> <input type= "text" name="fname">
-<br>
-<br>
-
-<h3> Email tag </h3>
-Email:    <input type="email" id="email" name="email">
-
-<h3> Gender </h3>
-<input type="radio" id="gender" name="gender" value="male" >Male
-<input type="radio" id="gender" name="gender" value="female"/>Female
-
-<center>
-
-<input type="submit" value="submit">
- 
-</center>
-
-
-</form>
-
-</body>
-</html>
+         <form name"f1" action="register.jsp"onsubmit="return matchpass()">
+            password:<input type="password" name="password"/><br><br>
+            re-enterpassword:<input type="password" name="password"/><br><br>
+            <input type="submit">
+            </form>
+            <h1>javascript number validation</h1>
+            <script>
+                function validation(){
+                    var num=document.myform.num.value;
+                    if(isNaN(num)){
+                       documrnt. getElementBYId("maloc").innerjoin="enter numeric value on num";
+                       return fals;
+                    }else{
+                        return true;
+                    }
+                }
+                </script>
+                <form name="myform" onsubmit="return validation()">
+                    number:<input type="text" name="num"><spam id="numloc"></spam>
+                    <input type="submit" valure="submit">
+                    </form>
+                    <h2>javascript validation</h2>
+                    <input type="/action-page.php" method="post">
+                    <input type="submit" value="submit">
+                </form>
+                <p>if you click submit,without filling out the text field, your browser will display an error message.</p>
+            </body>
+            </head>
+                </html>
+            

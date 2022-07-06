@@ -1,0 +1,81 @@
+<!Doctype html>
+<html>
+<head>
+    <style>
+        p.test1{
+            white-space:nowrap;
+            width:200px;
+            border:1px solid black;
+            overflow:hidden;
+            text-overflow:clip;
+
+        }
+        p.test2{ 
+            white-space:nowrap;
+            width:200px;
+            border:1px solid black;
+            overflow:hidden;
+            text-overflow:ellipsis;
+        }
+        p.test3{
+            width:11em;
+            border:1px solid black;
+            word-wrap:break-word;
+        }
+        p.test4{
+             width:11em;
+            border:1px solid black;
+            word-break:break-all;
+            font-family: 'Times New Roman', Times, serif;
+         }
+         p.test5{
+             width:11em;
+            border:1px solid black;
+            word-break:keep-all;
+         }
+         p.test6{
+             writing-mode:horizontal-tb;
+            }
+            p.test7{
+                writing-mode: vertical-lr;
+            }
+            p.test8{
+                writing-mode: vertical-lr;
+            }
+
+        </style>
+        <body>
+            <h1>the text-overflow property</h1>
+            <p> the following two paragraphis contain a long text not fill in the box</p>
+
+            <h1>text-overflow clip</h1>
+            <p class="test1"> the following two paragraphis contain a long text not fill in the box</p>
+
+            <h1>the text-overflow ellipsis</h1>
+            <p class="test2"> the following two paragraphis contain a long text not fill in the box</p>
+
+
+            <h1>word-wrapping property</h1>
+            <p class="test3"> LifehacksHe pricks a needle into a banana and look what happens next! This trick is super handy!
+                needl
+                
+                This needle trick really is very handy!
+                Bananas are not only very delicious pieces of fruit, they’re also super healthy. Eating two bananas a day can do wonders for your health, for example. But did you ever think of sticking a needle into a banana? Probably not, but you should, because it’s super handy!
+                
+                After you see this trick, you’ll swear by it!</p>
+
+                <h1>the word breaking property</h1>
+                 <p class ="type4"> This needle trick really is very handy!
+                    Bananas are not only very delicious pieces of fruit, they’re also super healthy. Eating two bananas a day can do wonders for your health, for example. But did you ever think of sticking a needle into a banana? Probably not, but you should, because it’s super handy!
+                    </p>
+                    <p class="type5">This needle trick really is very handy!
+                        Bananas are not only very delicious pieces of fruit, they’re also super healthy. Eating two bananas a day can do wonders for your health, for example. But did you ever think of sticking a needle into a banana? Probably not, but you should, because it’s super handy!
+                        </p>
+                        
+                    <h1>writing-mode</h1>
+                    <p class="type6">some test with writing mode defaukt </p>
+                    <p>some test with spam writing<spam class="test7"></spam></spam>mode</p>
+                    <p class="type8">some text with vertical</p>
+
+        </head>
+        </html>>
