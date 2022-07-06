@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>web application</title>
+<h1>Amazon Website</h1>
+<style>
+h1{text-align:center;color:darkblue;font-family:cabria;}
+h2{text-align:center;font-family:cabria;color:brown}
+b{color:blue;}
+p{text-align:center;}
+*{background-color:aqua;}
+</style>
+<script type="text/javascript" src="msg.js"></script>
+<script>
+document.write("Amazon is the best app for the web services")
+</script>
+</head>
+<body>
+<p><a href = "https://www.amazon.com/" target="_blank">visit amazon</a></p>
+<img src="img8.jpg"alt="amazon logo"width="500"height="300">
+<h2> Register form</h2>
+<form action="app.html" target="_blank">
+Enter your Firstname: <input type="text"name="fname">
+<br>
+<br>
+Enter your lastname: <input type="text"name="lname">
+<br>
+<br>
+Enter your address: <textarea rows="2" cols="20"></textarea>
+<br>
+<br>
+Gender:<input type="radio" id="gender" name="gender" value="male"/>Male
+       <input type="radio" id="gender" name="gender" value="female"/>Female
+<br>
+<br>
+
+
+<input type="date"name"=dob">DOB:<br><br>
+
+tel no:<input type="tel"name="tel"><br><br>
+
+Enter your email:<input type="text" name="email"><br><br>
+
+Enter your password:<input type="password" name="password"><br><br>
+Re-enter your password:<input type="password" name="password2"><br><br>
+<input type="submit"value="submit">
+<input type="reset"value="reset">
+
+</field>
+</form>
+
+<br>
+<form>
+Are you a member?<a href="login.html">Login</a>
+</form>
+<br>
+
+<article>
+<h2>About Amazon</h2>
+<b>Information about amazon</b>
+<p>Amazon was founded by Jeff Bezos from his garage in Bellevue, Washington,[11] on July 5, 1994.
+ Initially an online marketplace for books, it has expanded into a multitude of product categories: a strategy that has earned it the moniker
+ The Everything Store.[12] 
+ It has multiple subsidiaries including Amazon Web Services (cloud computing), 
+ Zoox (autonomous vehicles), Kuiper Systems (satellite Internet), Amazon Lab126 (computer hardware R&D). 
+ Its other subsidiaries include Ring, Twitch, IMDb, and Whole Foods Market. 
+ Its acquisition of Whole Foods in August 2017 for US$13.4 
+ billion substantially increased its footprint as a physical retailer</p>
+</article>
+
+<h2>DATA</h2>
+
+
+<style>
+table,th,td{
+border:1px solid black}
+th,td{
+padding:20px}
+table{
+background-color:gray}
+th,td{color: black}
+</style>
+<body>
+<table>
+<tr>
+<th>product name</th>
+<th>customer name</th>
+<th>retailer no</th>
+<th>order no</th>
+<th>city</th>
+</tr>
+<tr>
+<td>ear podes</td>
+<td>ramu</td>
+<td>9432156031</td>
+<td>509</td>
+<td>vizag</td>
+</tr><tr>
+<td>laptop</td>
+<td>ravi</td>
+<td>9876543201</td>
+<td>650</td>
+<td>vizayanagaram</td>
+</tr>
+<tr>
+<td>mobile</td>
+<td>rahul</td>
+<td>6754328919</td>
+<td>120</td>
+<td>guntur</td>
+</tr>
+</table>
+<h2>Audio element of Amazon</h2>
+<p>click on play button to play the audio</p>
+<audio controls autoplay loop>
+<source src="audio.mp3"type="audio/mpeg">
+your bowser doesnot support audio
+</audio>
+
+<h2>Video element of Amazon</h2>
+<p>click on play button to play the video</p>
+<video width="300"height="200" controls autoplay>
+<source src="th.mp4"type="video/mp4">
+your bowser doesnot support audio
+</video>
+<br>
+<br>
+<h2>Amazon Web Services</h2>
+<script>
+document.write("Amazon is the best app for the web services")
+</script>
+<br>
+<br>
+<form>
+<input type="button" value="click" onclick="msg()"/>
+</form>
+
+<h2>login form</h2>
+<script type="text/javascript">
+function matchpass(){
+var firstpassword=document.f1.password.value;
+var secondpassword=document.f1.password2.value;
+if(firstpassword==secondpassword)
+{
+return true;
+}
+else{
+window.alert("password must be same")
+return false;
+}
+}
+</script>
+
+<form name="f1" action="app.html" onsubmit="return matchpass()">
+ email:<input type="text" name="email"><br><br>
+password:<input type="password" name="password"/><br><br>
+Re-enter password:<input type="password" name="password" name="password2"/><br><br>
+<input type="submit">
+<input type="reset">
+</form>
+<form>
+<br>
+Not yet a member?<a href="register.html">Register</a>
+</form>
+<br>
+</body>
+</html>
