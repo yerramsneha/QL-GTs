@@ -1,0 +1,7 @@
+body{
+    background-color: brown;
+    background-image:url(5.jpg);
+    background-position: top;
+    background-size: cover;   
+    background-repeat: no-repeat; 
+}
