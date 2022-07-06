@@ -1,0 +1,119 @@
+body{
+    margin: 40px;
+    font-size:16px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #fff;
+}
+
+#com_logo{
+    height: 60px;
+    margin-bottom: 10px;
+    border: 200px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: sticky top;
+    top: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+.active{
+    background-color: aliceblue;
+}
+
+#com_description{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#com_GT_reg{
+    font-style: normal;
+}
+
+#button_1{
+    background-color: rgb(167, 182, 197);
+    height: 50px;
+    width: 200px;
+       
+}
+
+#frdet{
+    margin-top: 20px;
+    
+}
+
+#fn{
+    margin:0;
+    margin-top:0px;
+}
+
+#email{
+    margin:0;
+}
+
+#lname{
+    margin:0;
+    margin-top: 16px;
+}
+#phno {
+    margin:0;
+}
+
+#ta, #fname, #lname, #email, #phno{
+    outline:none;
+    color: black;
+
+}
+
+/*#sub{
+    width: 75px;
+    height: 20px;
+    margin-top: 20px;
+}*/
+
+#res{
+    padding: 12px 20px;
+    outline: none;
+    background-color: rgb(119, 98, 98);
+    color:#fff;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.btn{
+    padding: 12px 20px;
+    outline: none;
+    background-color: #333;
+    color:#fff;
+    border-radius: 6px;
+    border: none;
+
+}
+.btn:hover {
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s ease;
+    
+
+}
