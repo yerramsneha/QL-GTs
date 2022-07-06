@@ -1,0 +1,259 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<style>
+div {
+box-sizing: border-box;
+width: 100%;
+border: 100px solid black;
+float: left;
+align-content: center;
+align-items: center;
+}
+form {
+margin: 0 auto;
+width: 600px;
+}
+*{
+background-color: honeydew;
+}
+h3{
+color:brown;
+}
+</style>
+<script>
+            function func() {
+                var name =
+                    document.forms.RegForm.Name.value;
+                var email =
+                    document.forms.RegForm.EMail.value;
+                var phone =
+                    document.forms.RegForm.Telephone.value;
+                var what =
+                    document.forms.RegForm.Subject.value;
+                var password =
+                    document.forms.RegForm.Password.value;
+                var address =
+                    document.forms.RegForm.Address.value;
+                var regEmail=/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/g;  //Javascript reGex for Email Validation.
+                var regPhone=/^\d{10}$/;                                        // Javascript reGex for Phone Number validation.
+                var regName = /\d+$/g;                                    // Javascript reGex for Name validation
+ 
+                if (name == "" || regName.test(name)) {
+                    window.alert("Please enter your name properly.");
+                    name.focus();
+                    return false;
+                }
+ 
+                if (address == "") {
+                    window.alert("Please enter your address.");
+                    address.focus();
+                    return false;
+                }
+                 
+                if (email == "" || !regEmail.test(email)) {
+                    window.alert("Please enter a valid e-mail address.");
+                    email.focus();
+                    return false;
+                }
+                  
+                if (password == "") {
+                    alert("Please enter your password");
+                    password.focus();
+                    return false;
+                }
+ 
+                if(password.length <6){
+                    alert("Password should be atleast 6 character long");
+                    password.focus();
+                    return false;
+ 
+                }
+                if (phone == "" || !regPhone.test(phone)) {
+                    alert("Please enter valid phone number.");
+                    phone.focus();
+                    return false;
+                }
+ 
+                if (what.selectedIndex == -1) {
+                    alert("Please enter your course.");
+                    what.focus();
+                    return false;
+                }
+ 
+                return true;
+            }
+        </script>
+</head>
+<body>
+<h1 align="center" style="color:purple;">APPLICATION FORM</h1>
+<hr>
+<form name="RegForm" onsubmit="return func()" method="post">
+<fieldset>
+<legend><h3>I.Contact Details</h3></legend>
+
+<label for="fname">First name:</label> 
+<br>
+<input type="text" id="fname" name="fname">
+<br>
+
+<label for="lname">Last name:</label> 
+<br>
+<input type="text" id="lname" name="lname">
+<br>
+
+<label for="email">Email:</label>
+<br>   
+<input type="email" id="email" name="Email">
+<br>
+
+<label for="cpass">Create password:</label>
+<br>   
+<input type="text" name="Password">
+<br>
+
+<label for="rpass">Re-type password:</label>
+<br>   
+<input type="password" id="rpass" name="Password">
+<br>
+
+<label for="contact">Contact number:</label>
+<br>   
+<input type="text" id="contact" name="Telephone">
+<br>
+</fieldset>
+<br>
+
+
+<fieldset>
+<legend><h3>II.Personal Details</h3></legend>
+
+<label for="fathername">Father name:</label> 
+<br>
+<input type="text" id="fathername" name="fathername">
+<br>
+
+<label for="mname">Mother name:</label> 
+<br>
+<input type="text" id="mname" name="mname">
+<br>
+<br>
+
+<form action="/action_page.php">
+<label for="dob">Date of Birth:</label>
+<input type="date" id="dob" name="dob">
+<br>
+
+<p>Gender:</p>
+<input type="radio" id="male" name="male">
+<label for="male">Male</label><br>
+<input type="radio" id="female" name="female">
+<label for="female">Female</label><br>
+
+<p>Address:</p>
+<textarea rows="5" cols="25">
+</textarea>
+</fieldset>
+
+<fieldset>
+<legend><h3>III.Education Details</h3></legend>
+
+<h4>1.10th/SSC:</h4>
+<label for="sname">Institution name:</label>
+<br> 
+<input type="text" id="sname" name="sname">
+<br>
+<p>Specialization:</p> 
+<select name="spe" id="spe">
+<option value="sel">--SELECT--</option>
+<option value="gen">General</option>
+<option value="mpc">MPC</option>
+<option value="bpc">BPC</option>
+<option value="mbpc">MBPC</option>
+<option value="cec">CEC</option>
+<option value="hec">HEC</option>
+</select>
+<br>
+<label for="per">Percentage/CGPA:</label> 
+<br>
+<input type="text" id="per" name="per">
+<br>
+<br>
+
+<h4>2.10+2/Intermediate:</h4>
+<label for="sname">Institution name:</label> 
+<br>
+<input type="text" id="sname" name="sname">
+<br>
+<p>Specialization:</p> 
+<select name="spe" id="spe">
+<option value="sel">--SELECT--</option>
+<option value="gen">General</option>
+<option value="mpc">MPC</option>
+<option value="bpc">BPC</option>
+<option value="mbpc">MBPC</option>
+<option value="cec">CEC</option>
+<option value="hec">HEC</option>
+</select><br>
+<label for="per">Percentage/CGPA:</label> 
+<br>
+<input type="text" id="per" name="per">
+<br>
+<br>
+
+<h4>3.Graduation:</h4>
+<label for="sname">Institution name:</label> 
+<br>
+<input type="text" id="sname" name="sname">
+<br>
+<p>Specialization:</p> 
+<select name="spe" id="spe">
+<option value="sel">--SELECT--</option>
+<option value="gen">BBA</option>
+<option value="mpc">B.COM</option>
+<option value="bpc">B.Sc </option>
+<option value="mbpc">B.Sc Computers</option>
+</select><br>
+<label for="per">Percentage/CGPA:</label> 
+<br>
+<input type="text" id="per" name="per">
+<br>
+<br>
+
+<h4>4.Post Graduation(if any)</h4>
+<label for="sname">Institution name:</label> 
+<br>
+<input type="text" id="sname" name="sname">
+<br>
+<label for="spe">Specialization:</label> 
+<br>
+<input type="text" id="spe" name="spe">
+<br>
+<label for="per">Percentage/CGPA:</label> 
+<br>
+<input type="text" id="per" name="per">
+<br>
+</fieldset>
+<br>
+
+<fieldset>
+<legend><h3>IV.Documents Upload</h3></legend>
+<form action="/action_page.php">
+<label for="myfile">Select a resume file:(pdf)</label><br>
+<input type="file" id="myfile" name="myfile">
+<br>
+<br>
+
+<form action="/action_page.php">
+<label for="myfile">Select a profile photo:(jpg/jpeg)</label><br>
+<input type="file" id="pic" name="pic">
+<br>
+<br>
+</fieldset>
+
+<input type="submit" value="Submit">
+<br>
+<input type="reset" value="Reset" name="Reset" />
+</form>
+</body>
+</html>
