@@ -1,0 +1,55 @@
+<html>
+<head>
+<title>link</title>
+<script type="text/javascript" >
+function myfunction(){
+alert("your booking is confirmed");
+}
+</script>
+</head>
+<style>
+h1{
+text-decoration:underline;
+text-align:left;
+color:blue;
+}
+*{
+background-image:url("dj.jpg");
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-size:80%,80%;
+}
+
+</style>
+<body>
+<h1>THANK YOU FOR USING ONLINE TRAVEL</h1>
+<br>
+<h2>terms and conditions:</h2>
+<br>
+<ul>
+<li> share OTP when driver is arrived at your place</li>
+<br>
+<li>wear healmet while travelling on bike</li>
+<br>
+<li>wear seat belt while in car</li>
+<br>
+<br>
+</ul>
+<h2>COVID REGULATIONS</h2>
+<ul>
+<li>wear mask</li>
+<br>
+<li>sanitize your self before and after travel</li>
+<br>
+</ul>
+<form>
+<input type="button" value="click here to check status"onclick="myfunction()"/>
+</form>
+<h3>back to login page</h3>
+<br>
+<br>
+<form>
+<input type="button" value="back to home" onclick="taxibooking.html"/>
+</form>
+</body>
+</html>
