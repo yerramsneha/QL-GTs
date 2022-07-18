@@ -1,0 +1,25 @@
+<DOCTYPE HTML>
+<html>
+<body>
+
+
+<h1>html links </h1>
+<p> this is for link <a "https://www.amazon.in/"> check amazon</a> </p>
+
+<h2>target attributes </h2>
+<p> this is the para link <a href = "https://www.amazon.in/" taget="_blank"> vist amazon </a> </p>
+
+<h3>Absolute url </h3>
+<p>
+<a href = "https://www.amazon.in/">
+visit amzaon
+</a>
+</P>
+
+<h2>relative url</h2>
+<p> <a href = "file:///C:/Users/PavanKumarGujjuru/OneDrive%20-%20ValueMomentum,%20Inc/Documents/first%20page.html"> visit my page</a>
+</p>
+
+
+</body>
+</html>
