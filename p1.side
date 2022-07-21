@@ -1,0 +1,107 @@
+{
+  "id": "ea419043-2a2c-4823-824b-7a84fb2c2d5e",
+  "version": "2.0",
+  "name": "p1",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "18c81747-42a0-4eb8-8f7d-f34b930a9fa1",
+    "name": "t1",
+    "commands": [{
+      "id": "00eb2088-8dd1-4dcf-a167-ec7633d506b9",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a131ea5d-63e7-4e9d-840e-1af37666af63",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x660",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b2f2c763-c758-40c6-8e93-a9fb455538db",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2498480-a14a-4ae8-8c57-fe337bd88bb9",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "amazon"
+    }, {
+      "id": "a0d1d790-48bc-41da-b5de-fe1125c546f4",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "d8eb75ea-1a4b-4ba9-8207-2dc56ab16239",
+      "comment": "",
+      "command": "click",
+      "target": "css=.CCgQ5 > span",
+      "targets": [
+        ["css=.CCgQ5 > span", "css:finder"],
+        ["xpath=//div[@id='tads']/div/div/div/div/div/a/div/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/div/div/a/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Shop Online on Amazon - Get the best deals on Amazon')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3af9875a-b416-4827-960e-bbf1ff559894",
+      "comment": "",
+      "command": "click",
+      "target": "css=#\\30 4y_acJMKBW37ouPK1lqFQ .a-section:nth-child(1) > .a-section:nth-child(2) .landscape-image",
+      "targets": [
+        ["css=#\\30 4y_acJMKBW37ouPK1lqFQ .a-section:nth-child(1) > .a-section:nth-child(2) .landscape-image", "css:finder"],
+        ["xpath=//img[@alt='Footwear']", "xpath:img"],
+        ["xpath=//div[@id='04y_acJMKBW37ouPK1lqFQ']/div[2]/div/div[2]/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div[2]/div/div[2]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "00b715ea-365a-42bf-9bec-ea34bbbe1dc3",
+      "comment": "",
+      "command": "click",
+      "target": "css=#\\30 4y_acJMKBW37ouPK1lqFQ .a-section:nth-child(1) > .a-section:nth-child(2) .landscape-image",
+      "targets": [
+        ["css=#\\30 4y_acJMKBW37ouPK1lqFQ .a-section:nth-child(1) > .a-section:nth-child(2) .landscape-image", "css:finder"],
+        ["xpath=//img[@alt='Footwear']", "xpath:img"],
+        ["xpath=//div[@id='04y_acJMKBW37ouPK1lqFQ']/div[2]/div/div[2]/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div[2]/div/div[2]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c0396c70-a345-4a7f-be34-5634a55c845c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["18c81747-42a0-4eb8-8f7d-f34b930a9fa1"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}
