@@ -1,0 +1,322 @@
+{
+  "id": "92e8ce6b-631e-4205-a192-36e9c7f67f21",
+  "version": "2.0",
+  "name": "p1",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "5c9a0f04-2590-4e29-8154-2b494ee3f7d3",
+    "name": "amazon login success",
+    "commands": [{
+      "id": "afd4c292-ddb9-41fb-9135-54d1e214a977",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b99c50ee-759a-40ec-9967-7fd825f4346c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x660",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a642d3cf-f160-4d79-a7a1-21dd2071768d",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "amazon"
+    }, {
+      "id": "be3d4739-d1a3-42ea-8a9f-6f2ad0b9b5eb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sbre .pcTkSc",
+      "targets": [
+        ["css=.sbre .pcTkSc", "css:finder"],
+        ["xpath=//li/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0dd76e00-9998-4b3c-91a0-0736157a02b7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.CCgQ5 > span",
+      "targets": [
+        ["css=.CCgQ5 > span", "css:finder"],
+        ["xpath=//div[@id='tads']/div/div/div/div/div/a/div/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/div/div/a/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Shop Online on Amazon - Get the best deals on Amazon')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a5b0c2e-f37d-4a0e-84f0-efb51eea83f3",
+      "comment": "",
+      "command": "click",
+      "target": "css=#nav-signin-tooltip .nav-action-inner",
+      "targets": [
+        ["css=#nav-signin-tooltip .nav-action-inner", "css:finder"],
+        ["xpath=//div[@id='nav-signin-tooltip']/a/span", "xpath:idRelative"],
+        ["xpath=//div[13]/div[2]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "782a3e4c-fb90-4609-9696-81d830c1f973",
+      "comment": "",
+      "command": "type",
+      "target": "id=ap_email",
+      "targets": [
+        ["id=ap_email", "id"],
+        ["name=email", "name"],
+        ["css=#ap_email", "css:finder"],
+        ["xpath=//input[@id='ap_email']", "xpath:attributes"],
+        ["xpath=//div[@id='authportal-main-section']/div[2]/div/div/form/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "7093029193"
+    }, {
+      "id": "f00f094e-03c8-48ed-8441-dd160a686453",
+      "comment": "",
+      "command": "click",
+      "target": "css=.a-button-inner > #continue",
+      "targets": [
+        ["css=.a-button-inner > #continue", "css:finder"],
+        ["xpath=//input[@id='continue']", "xpath:attributes"],
+        ["xpath=//span[@id='continue']/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5ed51a9-1144-46da-9444-4f2527ef7355",
+      "comment": "",
+      "command": "type",
+      "target": "id=ap_password",
+      "targets": [
+        ["id=ap_password", "id"],
+        ["name=password", "name"],
+        ["css=#ap_password", "css:finder"],
+        ["xpath=//input[@id='ap_password']", "xpath:attributes"],
+        ["xpath=//div[@id='authportal-main-section']/div[2]/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "Indra@0430"
+    }, {
+      "id": "192f596b-e6aa-4b7e-bf57-a0e8e1d2bbce",
+      "comment": "",
+      "command": "click",
+      "target": "id=signInSubmit",
+      "targets": [
+        ["id=signInSubmit", "id"],
+        ["css=#signInSubmit", "css:finder"],
+        ["xpath=//input[@id='signInSubmit']", "xpath:attributes"],
+        ["xpath=//span[@id='auth-signin-button']/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "89b0278f-a3a7-4988-9508-262fcd1bef84",
+    "name": "t1",
+    "commands": [{
+      "id": "525f80a8-6c40-4d9e-bd45-7cc028e70813",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d81946b5-a293-4bfd-ad8f-2862e3e33f6c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x660",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "42a9c5ca-048a-4394-a2c2-eed36c5346f2",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [],
+      "value": "amazon"
+    }, {
+      "id": "5eb2d032-a2d0-4947-a67e-00a03fcbaf91",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sbre .pcTkSc",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cbeee277-4281-4d3e-a123-60d2933e2971",
+      "comment": "",
+      "command": "click",
+      "target": "css=.CCgQ5 > span",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7611baa5-21a7-4e26-92c5-405e587e8b03",
+      "comment": "",
+      "command": "click",
+      "target": "css=#nav-signin-tooltip .nav-action-inner",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7b862fb5-255b-4e5a-b037-1d65a68c87b5",
+      "comment": "",
+      "command": "type",
+      "target": "id=ap_email",
+      "targets": [],
+      "value": "7093029193"
+    }, {
+      "id": "41c143cc-6e09-4609-9a57-4599964676fb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.a-button-inner > #continue",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "946516b1-48c0-4be0-ae91-5e03ccbf979a",
+      "comment": "",
+      "command": "type",
+      "target": "id=ap_password",
+      "targets": [],
+      "value": "Indra@0430"
+    }, {
+      "id": "4bdca305-edba-428b-8e6b-4b236c8b1c32",
+      "comment": "",
+      "command": "click",
+      "target": "id=signInSubmit",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "11a85d2c-ef0d-457f-a4be-ce349771e9e9",
+    "name": "udemy login failed",
+    "commands": [{
+      "id": "815606da-422f-43bb-8874-96651b997cad",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "76e80b67-30d4-457a-90f0-0266e641665b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x660",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eb33d756-abc2-4782-b750-e3faa874a10e",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "udemy"
+    }, {
+      "id": "744c56f5-ae3f-418d-9815-d77879cae10f",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "4efc7348-4fde-456c-9a51-822f234ad430",
+      "comment": "",
+      "command": "click",
+      "target": "css=.CCgQ5 > span",
+      "targets": [
+        ["css=.CCgQ5 > span", "css:finder"],
+        ["xpath=//div[@id='tads']/div/div/div/div/div/a/div/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/div/div/a/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Udemy Official Site - Online Courses Learn Anything')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab894ac9-81d3-45e2-894b-0530d8640133",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header--gap-auth-button--7KoL0 > .udlite-btn-secondary > span",
+      "targets": [
+        ["css=.header--gap-auth-button--7KoL0 > .udlite-btn-secondary > span", "css:finder"],
+        ["xpath=//body[@id='udemy']/div/div/div[3]/div[6]/a/span", "xpath:idRelative"],
+        ["xpath=//div[6]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Log in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f21001b-62a1-47af-be1e-3ec1b962a34d",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_password",
+      "targets": [
+        ["id=id_password", "id"],
+        ["name=password", "name"],
+        ["css=#id_password", "css:finder"],
+        ["xpath=//input[@id='id_password']", "xpath:attributes"],
+        ["xpath=//div[@id='tooltip-reference-password']/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fbfdca2c-373f-4425-9f38-acab614dfa66",
+      "comment": "",
+      "command": "type",
+      "target": "id=id_password",
+      "targets": [
+        ["id=id_password", "id"],
+        ["name=password", "name"],
+        ["css=#id_password", "css:finder"],
+        ["xpath=//input[@id='id_password']", "xpath:attributes"],
+        ["xpath=//div[@id='tooltip-reference-password']/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "indra54322"
+    }, {
+      "id": "9b8cbe8b-ab70-4d9c-b310-58393229e298",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit-id-submit",
+      "targets": [
+        ["id=submit-id-submit", "id"],
+        ["name=submit", "name"],
+        ["css=#submit-id-submit", "css:finder"],
+        ["xpath=//input[@id='submit-id-submit']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "284acf9f-81c1-4364-95d8-a011d647b27f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "b80a1582-499e-4839-9d3c-9199b0166971",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}
