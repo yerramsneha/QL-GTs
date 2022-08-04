@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+button {
+  background-color: #e9967a;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  
+}
+
+button:hover {
+  opacity: 0.8;
+}
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed; 
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+<h2 style="text-align:center">Mini Mart Login Form</h2>
+<button  style="vertical-center" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="BestSeller.PNG;border-radius:100%" alt="Mini Market" class="avatar">">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+      <button type="submit"><a href="index.html">Login</a></button></br>
+        
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="forgot.html">password?</a></span>
+    </div>
+  </form>
+</div>
+
+<script>
+var modal = document.getElementById('id01');
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+</body>
+</html>
+
+                              Register 
+Register page
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+  background-color: #e9967a;
+  color: white;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+</style>
+</head>
+<body style="font-family: Georgia, serif">
+
+<form action="/action_page.php">
+  <div class="container">
+    <h1>Register</h1>
+    <p>Please fill in this form to create an account.</p>
+    <hr>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+    <label for="psw-repeat"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+    <hr>
+    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+
+    <button type="submit" class="registerbtn" onclick="myFunction()"><a href="login.html">Register</a></button>
+  </div>
+  
+  <div class="container signin">
+    <p>Already have an account?<a href="login.html">Sign_in</a></p>
+  </div>
+</form>
+<script>
+function myFunction() 
+{
+  alert("Account created successfully,now you can login to your account");
+}
+</script>
+</body>
+</html>
+
+Forgot password page
+<!DOCTYPE html>
+<html>
+<body>
+<p>Click on the reset button to reset the form</p>
+
+<form action="/action_page.php">
+  <label for="email">Enter your email:</label>
+  <input type="email" id="email" name="email"><br><br>
+
+  <label for="pin">Enter a PIN:</label>
+  <input type="text" id="pin" name="pin" maxlength="4"><br><br>  
+
+  <input type="reset" value="Reset">
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
+                              
+                        Home page
+Home page
+
+
+<!DOCTYPE html>
+ <html>
+  <head>
+<style>
+table {
+  width: 90%;
+  border-spacing: 30px;
+}
+ 
+</style>
+ <title>Mini Market</title>
+ <link rel="stylesheet" href="newstyle.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+   <body style="background-color:#ffffff;font-family: Georgia, serif">
+     <section class="header" style="background-color:bisque">
+        <!--navigation menu open-->
+      <nav>   
+         <div class="navlink" id="navLinks">
+            <!--topnav 1-->
+           <div class="topnav"> 
+             <a href="#Hello</br>Select your address">Hello!!</br>Select your address</a>   
+              <div class="search-container">
+                  <form action="/action_page.php">
+                    <input type="text" placeholder="Search for products,brands" style="background-color:#e18aaa">
+                        <button type="submit"><i class="fa fa-search"></i></button>  
+                  </form>
+              </div>
+                <a href="#hello sign in account & lists">Signin </br>Account & Lists</a>
+                 <a href="#return & orders">Return & orders</a>
+                   <a href="#contact">Accounts & Lists</a>
+                <div class="cart-container">
+                  <button><i class="fa fa-shopping-cart"></i></button>
+              </div>
+           </div>
+            <!--topnav 2-->
+           <div class="centernav" style="background-color:#e4a0b7">
+    <ul>
+       <li><img src="BestSeller.PNG style="border-radius:100%;width:607%"></br><a href="">Best Seller</a></li>
+       <li><img src="Mobiles.jpeg" style="width:48%"><a href=""></br>Gadgets</a></li>
+       <li><img src="Fashion.jpeg" style="width:58%"><a href=""></br>Fashion</a>                  
+       <li><img src="Grocery.jpeg" style="width:48%"><a href=""></br>Grocery</a></li>  
+       <li><img src="Essentials.jpeg" style="width:48%"><a href=""></br>Essentials</a></li>
+       <li><img src="Appliances.jpeg" style="width:48%"><a href="stationary.html"></br>Appliances</a></li>
+      </ul>
+              </div>              
+           </div>
+             </nav>      
+            
+             <!--slides-->
+             </section> 
+             <div class="slideshow-container">
+<div class="mySlides fade">
+  <img src="footwear.jpg" style="width:100%" style="height:100%;">
+</div>
+
+<div class="mySlides fade">
+  <img src="books.jpg" style="width:100%" style="height:100%;">
+</div>
+
+<div class="mySlides fade">
+  <img src="offers.jpg" style="width:100%" style="height:100%;">
+</div>
+<div class="mySlides fade">
+  <img src="sports.jpg" style="width:100%" style="height:100%;">
+</div>
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+      <!--main-->
+<!--<section class="products">-->
+                  <table id="products">
+                        <tr>
+                              
+                        <td><img src="srice.jpg"  width="100" height="100"><a href="rice.html" target=""></br>Rice</a></td>    
+                          <td><img src="scereals.jpg"  width="100" height="100"><a href="cereals.html" target=""></br>Cereals</a></td>
+                          <td><img src="scosmetics.jpg"  width="100" height="100"><a href="cosmetics.html" ></br>Cosmetics</a></td> 
+                  <td><img src="stoys.jpg"  width="100" height="100"><a href="toys.html"></br>Toys</a></td>
+                </tr>
+                <tr>
+                               <td><img src="sbevarages.jpg"  width="100" height="100"><a href="beverages.html" target=""></br>Bevarages</a></td>
+                               <td><img src="sstationary.jpg"  width="100" height="100"><a href="stationary.html" target=""></br>Stationary</a></td>
+                             <td><img src="senergydrinks.jpg"  width="120" height="100"><a href="energy drinks.html" target=""></br>Energy drinks</a></td>
+                               <td><img src="ssoaps.jpg"  width="100" height="100"><a href="soaps.html" target=""></br>Soaps</a></td>
+                </tr>
+            </table>
+<!--</section>-->
+      <!--offers-->
+      <div class="row">
+      <div class="column">
+          <img src="returns-center.png" style="width:50%">
+          </div>
+          <div class="column">
+          <img src="cod.webp" style="width:50%">
+          </div>
+          <div class="column">
+          <img src="FastandFreeDelivery.jpg" style="width:50%">
+          </div>
+      </div>
+        <div class="footer-dark">
+        <footer style="text-align:center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="#">Web design</a></li>
+                            <li><a href="#">Development</a></li>
+                            <li><a href="#">Hosting</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>About</h3>
+                        <ul>
+                            <li><a href="#">Company</a></li>
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">Careers</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 item text">
+                        <h3>Mini Market</h3>
+                        <p>Mini Market is an Indian e-commerce website, developed by 5 college students in 2022. It sells beauty, wellness, groceries,clothing and fashion products across websites.</p>
+                    </div>
+                    <div class="col item social"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-snapchat"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                </div>
+                <p class="copyright">Mini Market © 2022</p>
+            </div>
+        </footer>
+    </div>
+        <script>
+        var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+ for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+dots[slideIndex-1].className += " active";
+}
+</script>
+ </body>
+</html> 
+                  
+
+                        Rice page
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Rice</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  #price {
+  background-color: #825;
+  color: black;
+  padding: 10px;
+  text-align: center;
+} 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background:pink;
+}
+header {
+  background-color: #825;
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+}
+article {
+  float:left;
+  margin: 01.5%;
+  width: 30%;
+}
+  
+.overlay {
+  height: 50%;
+  width: 30%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  color:white;
+  background-color: black;
+  background-color: black;
+  overflow-x: hidden;
+  transition: 0.3s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: left;
+  margin-top:0px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  font-size: 30px;
+}
+ 
+</style>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<header>
+  <input type="text-area" place placeholder="search..."><button type="submit"><i class="fa fa-search"></i></button>
+</header>
+  <div>
+  <span  style="font-size:20px;cursor:pointer" onclick="openNav1()"; <button><i class="fa fa-sort">Sort</i></button></br></span>
+  <div id="myNav1" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav1()">&times;</a> 
+     <div class="overlay-content">
+   <input type="radio" id="new to old" name="name"  value="New to Old"/>New to Old</br>
+    <input type="radio" id="old to new" name="name" value="Old to New"/>Old to New</br>
+<input type="radio" id="latest arrivals" name="name"  value="Latest arrivals"/>Latest Arrivals</br>
+       <input type="button" value="set"></br>
+     </div>
+  </div>        
+  <span  style="font-size:20px;cursor:pointer" onclick="openNav2()";<button><i class="fa fa-filter">Filter</i></button></br></span>
+   <div id="myNav2" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav2()">&times;</a>
+      <div class="overlay-content">
+    <input type="checkbox" value="size"/>Size</br>
+  <input type="checkbox"value="Material"/>Material</br>
+    <input type="checkbox" value="type"/>Type</br>
+    <input type="checkbox" value="brand"/>Brand</br>
+    <input type="checkbox" value="colour"/>colour</br>
+    <input type="checkbox" value="size"/>Size</br>
+    <input type="button" value="apply">
+       </div>
+  </div>
+    </div>
+  <table align=center border="2px">
+    <tr>
+       <td><img src="r4.png" alt=" " width="100" height="100"></td>
+       <td><img src="r5.png" alt=" " width="100" height="100"></td>
+      <td><img src="r7.png" alt=" " width="100" height="100"></td>
+    </tr>
+       <tr><td id="price">300</td>
+       <td id="price">200</td>
+          <td id="price">600</td>
+       </tr>  
+<tr>
+  <td><img src="r1.jpg" alt=" " width="100" height="100"></td>
+  <td><img src="r2.jpg" alt=" " width="100" height="100"></td>
+  <td><img src="r8.jpg" alt=" " width="100" height="100"></td>
+</tr>
+     <tr><td id="price">500</td>
+       <td id="price">600</td>
+        <td id="price">600</td>
+       </tr> 
+<tr>
+  <td><img src="r3.jpg" alt=" " width="100" height="100"></td>
+  <td><img src="r6.jpg" alt=" " width="100" height="100"></td>
+  <td><img src="r9.jpg" alt=" " width="100" height="100"></td>
+</tr>
+     <tr><td id="price">900</td>
+       <td id="price">500</td>
+        <td id="price">600</td>
+       </tr> 
+  </table>
+  <script>
+function openNav1() {
+  document.getElementById("myNav1").style.width = "40%";
+}
+
+function closeNav1() {
+  document.getElementById("myNav1").style.width = "0%";
+}
+    function openNav2() {
+  document.getElementById("myNav2").style.width = "40%";
+}
+
+function closeNav2() {
+  document.getElementById("myNav2").style.width = "0%";
+}
+</script>
+</body>
+</html>
+
