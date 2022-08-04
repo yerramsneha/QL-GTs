@@ -1,0 +1,130 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Checking Login Functionality",
+        "description": "",
+        "id": "checking-and-verifying-times-functionality;checking-login-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5144268000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should open Url in chrome browser",
+            "match": {
+              "location": "Times.user_should_open_Url_in_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6418492100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Enter Economics of times Url in the Search box",
+            "match": {
+              "location": "Times.user_Enter_Economics_of_times_Url_in_the_Search_box()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4866859500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should navigate to Home Page of Economics of times",
+            "match": {
+              "location": "Times.user_should_navigate_to_Home_Page_of_Economics_of_times()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1568348300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should click on Signin PushButton",
+            "match": {
+              "location": "Times.user_should_click_on_Signin_PushButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1110836400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should click on Signin with email or mobile",
+            "match": {
+              "location": "Times.user_should_click_on_Signin_with_email_or_mobile()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1620961000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should enter Emailid or phoneno in EditBox",
+            "match": {
+              "location": "Times.user_should_enter_Emailid_or_phoneno_in_EditBox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1565465500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click on Continue PushButton",
+            "match": {
+              "location": "Times.click_on_Continue_PushButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1541154300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User should enter Password in EditBox",
+            "match": {
+              "location": "Times.user_should_enter_Password_in_EditBox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4718481800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click on Signin PushButton and navigate to HomePage",
+            "match": {
+              "location": "Times.click_on_Signin_PushButton_and_navigate_to_HomePage()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "checking and verifying Times functionality",
+    "description": "",
+    "id": "checking-and-verifying-times-functionality",
+    "keyword": "Feature",
+    "uri": "C:/Users/GuruSravaniLaxmiSree/eclipse-workspace1/FinalProject/features/times.feature"
+  }
+]

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="28.554867">
+    <testcase classname="checking and verifying Times functionality" name="Checking Login Functionality" time="28.554867">
+        <system-out>
+            <![CDATA[Given User should open Url in chrome browser................................passed
+When User Enter Economics of times Url in the Search box....................passed
+When User should navigate to Home Page of Economics of times................passed
+Then User should click on Signin PushButton.................................passed
+Then User should click on Signin with email or mobile.......................passed
+And User should enter Emailid or phoneno in EditBox.........................passed
+And Click on Continue PushButton............................................passed
+And User should enter Password in EditBox...................................passed
+And Click on Signin PushButton and navigate to HomePage.....................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
