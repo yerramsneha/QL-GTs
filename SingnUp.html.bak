@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<title>SignUp.page</title>
+<link rel="stylesheet" type="text/css" href="style4.css">
+<body>
+
+
+<center><br><br><br><br><br><br><br><br><br>
+<h3>PLEASE FILL THIS DETAILS</h3>
+<table>
+<tr>
+<td><strong>USER NAME</strong>:</td>
+<td>
+<input type = "text" name="User">
+</td>
+</tr>
+</tr>
+<tr>
+<td><strong>ENTER YOUR E-MAIL:</strong></td>
+<td>
+<input type= "email" id="email" name="email">
+</td>
+</tr>
+<tr>
+<td><strong>CREATE PASSWORD:</strong></td>
+<td>
+<input type= "password" name="user_pass">
+</tr> 
+<tr>
+</td>
+<tr>
+<td><strong>CONFRIM PASSWORD:</strong></td>
+<td>
+<input type= "password" name="user_pass">
+</tr> 
+<tr>
+<td>
+<tr>
+<td><strong>ENTER PHONE NUMBER:</strong></td>
+<td>
+:<input type="number" id="number" name="number"> 
+</tr> 
+<tr>
+<td>
+<center><a href=""><strong>DONE</stromg></a></center>

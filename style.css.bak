@@ -1,0 +1,12 @@
+h2{
+	background-color: GrayText
+body{
+    background-image: url(1.png); 
+    background-position: center;
+    background-size: cover;
+
+body{
+    background-color: blue;
+    
+    
+}

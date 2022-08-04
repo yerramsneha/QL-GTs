@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<title>Login Page</title>
+<link rel="stylesheet" type="text/css" href="style3.css">
+
+<body>
+
+
+<center><br><br><br><br><br><br><br><br><br>
+<h3>WELCOME TO BUSINESS REGISTIRATION</h3>
+
+<form action="login.php" method ="post">
+ 
+<table>
+<tr>
+<td>UserName:</td>
+<td>
+<input type = "text" name="User">
+</td>
+</tr>
+<tr>
+<td>UserId:</td>
+<td>
+<input type= "email" id="email" name="email">
+</td>
+</tr>
+<tr>
+<td>Password:</td>
+<td>
+<input type= "password" name="user_pass">
+</tr> 
+<tr>
+</td>
+
+<a href="index.html">LOGIN</a>
+
+ </td>
+ <td>
+ Not Yet Member?<a href="SignUp.html">SignUp</a>
+ </td>
+ </tr>
+
+                   
+
+</head>
+  </body>
+</html>

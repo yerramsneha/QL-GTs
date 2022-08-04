@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<body>
+        <br><br><br>
+        <h2><i><center><strong>WELCOME TO THE BUSINESS REGISTIRATION </strong></center></i></h2>
+		<fieldset>
+                       <legend><strong>LOGIN HERE</strong></legend>
+					    UserName:<input type="text"  name="fname"><br><br>
+					   UserId:<input type="email" id="email" name="email"><br><br>
+					   Password:<input type="password" id="password" name="User_pass"><br><br>
+					    </fieldset>

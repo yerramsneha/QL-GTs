@@ -1,0 +1,150 @@
+{
+  "id": "48348221-142e-46e4-887a-4989750d1601",
+  "version": "2.0",
+  "name": "T1",
+  "url": "https://www.google.co.in",
+  "tests": [{
+    "id": "0e15a9af-bda3-4192-8480-bc524ce8ccce",
+    "name": "Amazon T1",
+    "commands": [{
+      "id": "990d774c-0202-4add-be88-b6a79490a535",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6b46ff16-74da-48bb-a21f-12a95d26e036",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "918x662",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d0d60efb-cdcf-4ae4-acac-26fb84d6aa27",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "a"
+    }, {
+      "id": "49c1ac0c-5a54-410a-b9fa-c76a26fc71d8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sbhl .wM6W7d > span",
+      "targets": [
+        ["css=.sbhl .wM6W7d > span", "css:finder"],
+        ["xpath=//div[2]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Amazon')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "64a738f0-ec9f-4b1a-990c-a7428fcf421f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.CCgQ5 > span",
+      "targets": [
+        ["css=.CCgQ5 > span", "css:finder"],
+        ["xpath=//div[@id='tads']/div/div/div/div/div/a/div/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/div/div/a/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Shop Online on Amazon - Get the best deals on Amazon')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e23c320-8596-41c6-8fbe-83dded84f193",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,400)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3fb130d4-eb83-46ed-99bc-eb4969722f28",
+      "comment": "",
+      "command": "click",
+      "target": "css=#KhF12FjU_2Z_-GVCNCmXnw .a-section:nth-child(2) > .a-section:nth-child(1) .landscape-image",
+      "targets": [
+        ["css=#KhF12FjU_2Z_-GVCNCmXnw .a-section:nth-child(2) > .a-section:nth-child(1) .landscape-image", "css:finder"],
+        ["xpath=(//img[@alt='Furniture'])[2]", "xpath:img"],
+        ["xpath=//div[@id='KhF12FjU_2Z_-GVCNCmXnw']/div[2]/div[2]/div/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[8]/div/div[2]/div[2]/div/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "09006a59-863c-40ba-956a-5b8a3684d68d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,6)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8a93729c-63f4-4cb5-82bf-f8837d4443ba",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,500)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "97711989-1dc6-455c-b520-3e68617dcca6",
+      "comment": "",
+      "command": "click",
+      "target": "css=#acs-product-block-0 img",
+      "targets": [
+        ["css=#acs-product-block-0 img", "css:finder"],
+        ["xpath=//img[@alt='Amazon Brand - Solimo Lunaria Fabric 4 Seater L Shape Sofa (Grey & B']", "xpath:img"],
+        ["xpath=//div[@id='acs-product-block-0']/div/a/img", "xpath:idRelative"],
+        ["xpath=//li/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "023d7858-1027-411b-92f3-d0c5f14f1716",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,725.3333129882812)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "51f032e1-b856-4134-b2cd-60a54a78b776",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1200)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b551e44a-f265-4a99-b5ea-7ca4c80161b1",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=5",
+      "targets": [
+        ["index=5"]
+      ],
+      "value": ""
+    }, {
+      "id": "b247070a-3f34-4f22-8ef7-a790bd65b010",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ad-link",
+      "targets": [
+        ["css=.ad-link", "css:finder"],
+        ["xpath=//div[@id='ad']/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://aax-eu.amazon.in/x/c/Qmuv4SFIUob7D5n7zgOrZdcAAAGCGgoxzAMAAAH_ASPfHe4/http://www.amazon.in/gp/slredirect/picassoRedirect.html?ie=UTF8&adId=A0765835FPRH3ELEW9WB&qualifier=1658294252&id=6834806486819144&widgetName=sd_onsite_desktop&url=%2Fdp%2FB0B2WPGC3R%2Fref%3Dsyn_sd_onsite_desktop_41%3Fpsc%3D1%26pd_rd_plhdr%3Dt')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "5758be87-bfa3-42ae-9c52-e5cc8a7fd2f4",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0e15a9af-bda3-4192-8480-bc524ce8ccce"]
+  }],
+  "urls": ["https://www.google.co.in/"],
+  "plugins": []
+}

@@ -1,0 +1,270 @@
+{
+  "id": "1de246ee-cd81-4f82-96a1-98477c815395",
+  "version": "2.0",
+  "name": "pro 3",
+  "url": "https://www.udemy.com",
+  "tests": [{
+    "id": "b58e3fb2-d6e6-48e8-b6cc-c2737c39b3c1",
+    "name": "t demo",
+    "commands": [{
+      "id": "8da897cb-6686-486d-8e56-26f58a21ebf0",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a3156ffc-ab49-4cd3-88a7-f44ee10b123a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "918x662",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b0473b09-2c99-4afd-8754-4f91e5354d23",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.header--gap-auth-button--7KoL0 > .udlite-btn-primary > span",
+      "targets": [
+        ["css=.header--gap-auth-button--7KoL0 > .udlite-btn-primary > span", "css:finder"],
+        ["xpath=//body[@id='udemy']/div/div/div[3]/div[7]/a/span", "xpath:idRelative"],
+        ["xpath=//div[7]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Sign up')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "12e4062a-aa38-4c63-9389-80c89272a186",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.header--gap-auth-button--7KoL0 > .udlite-btn-primary > span",
+      "targets": [
+        ["css=.header--gap-auth-button--7KoL0 > .udlite-btn-primary > span", "css:finder"],
+        ["xpath=//body[@id='udemy']/div/div/div[3]/div[7]/a/span", "xpath:idRelative"],
+        ["xpath=//div[7]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Sign up')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9914f2bf-f681-4ed9-a070-5def762bcf7f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header--gap-auth-button--7KoL0 > .udlite-btn-primary > span",
+      "targets": [
+        ["css=.header--gap-auth-button--7KoL0 > .udlite-btn-primary > span", "css:finder"],
+        ["xpath=//body[@id='udemy']/div/div/div[3]/div[7]/a/span", "xpath:idRelative"],
+        ["xpath=//div[7]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Sign up')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "59814add-46a9-4cf8-9866-f3ec81a72a21",
+      "comment": "",
+      "command": "click",
+      "target": "id=form-group--1",
+      "targets": [
+        ["id=form-group--1", "id"],
+        ["name=fullname", "name"],
+        ["css=#form-group--1", "css:finder"],
+        ["xpath=//input[@id='form-group--1']", "xpath:attributes"],
+        ["xpath=//body[@id='udemy']/div/div[2]/div/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8f320b8-1457-43b3-8a98-7f526da90dc9",
+      "comment": "",
+      "command": "type",
+      "target": "id=form-group--1",
+      "targets": [
+        ["id=form-group--1", "id"],
+        ["name=fullname", "name"],
+        ["css=#form-group--1", "css:finder"],
+        ["xpath=//input[@id='form-group--1']", "xpath:attributes"],
+        ["xpath=//body[@id='udemy']/div/div[2]/div/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "KOMMA SAI KRISHNA"
+    }, {
+      "id": "01ed0829-5ae0-4de3-a1ea-64aa1dc650f4",
+      "comment": "",
+      "command": "click",
+      "target": "id=form-group--3",
+      "targets": [
+        ["id=form-group--3", "id"],
+        ["name=email", "name"],
+        ["css=#form-group--3", "css:finder"],
+        ["xpath=//input[@id='form-group--3']", "xpath:attributes"],
+        ["xpath=//body[@id='udemy']/div/div[2]/div/div/div[2]/form/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e69e738d-57dd-48c7-ad8c-2192f30a59b0",
+      "comment": "",
+      "command": "type",
+      "target": "id=form-group--3",
+      "targets": [
+        ["id=form-group--3", "id"],
+        ["name=email", "name"],
+        ["css=#form-group--3", "css:finder"],
+        ["xpath=//input[@id='form-group--3']", "xpath:attributes"],
+        ["xpath=//body[@id='udemy']/div/div[2]/div/div/div[2]/form/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "kommasaikrishna61@gmail.com"
+    }, {
+      "id": "0cb14b2f-1d45-449f-b0b1-8e29814ec919",
+      "comment": "",
+      "command": "click",
+      "target": "id=form-group--5",
+      "targets": [
+        ["id=form-group--5", "id"],
+        ["name=password", "name"],
+        ["css=#form-group--5", "css:finder"],
+        ["xpath=//input[@id='form-group--5']", "xpath:attributes"],
+        ["xpath=//body[@id='udemy']/div/div[2]/div/div/div[2]/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b1a8df2-25dd-4042-8d9c-03674c9d4dd0",
+      "comment": "",
+      "command": "type",
+      "target": "id=form-group--5",
+      "targets": [
+        ["id=form-group--5", "id"],
+        ["name=password", "name"],
+        ["css=#form-group--5", "css:finder"],
+        ["xpath=//input[@id='form-group--5']", "xpath:attributes"],
+        ["xpath=//body[@id='udemy']/div/div[2]/div/div/div[2]/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dcfba721-2909-4fae-b981-2f63b5e4c81b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.udlite-btn-brand",
+      "targets": [
+        ["css=.udlite-btn-brand", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//body[@id='udemy']/div/div[2]/div/div/div[2]/form/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign Up')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a80c8f4-beb7-4337-b99a-eba296c57f94",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "b4874e79-0aac-43aa-989f-ca63ea4f28f8",
+    "name": "t2",
+    "commands": [{
+      "id": "e04a6094-c19f-483d-9b7b-42c5b423f916",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5428d5a6-c12f-45b8-a130-c128bc82bed1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "918x662",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "678f8802-d10d-4692-b56a-f89f79b2bea4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.header--gap-auth-button--7KoL0 > .udlite-btn-primary > span",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2012eaa6-a088-4746-88bd-d07d9732e5d3",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.header--gap-auth-button--7KoL0 > .udlite-btn-primary > span",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "18ef624c-99d2-4607-8e47-ab09a9c7f006",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header--gap-auth-button--7KoL0 > .udlite-btn-primary > span",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "df69f9e0-7805-44b9-92d9-08855c94f578",
+      "comment": "",
+      "command": "click",
+      "target": "id=form-group--1",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1a21431b-9c1b-45bc-9a47-60634c49076d",
+      "comment": "",
+      "command": "type",
+      "target": "id=form-group--1",
+      "targets": [],
+      "value": "KOMMA SAI KRISHNA"
+    }, {
+      "id": "5ae079b2-5fa7-469b-87e8-de55c55cf32d",
+      "comment": "",
+      "command": "click",
+      "target": "id=form-group--3",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b82a43e4-6f2f-4f11-8dfc-bc0d919da201",
+      "comment": "",
+      "command": "type",
+      "target": "id=form-group--3",
+      "targets": [],
+      "value": "kommasaikrishna61@gmail.com"
+    }, {
+      "id": "34608026-2c0d-4dc2-a06f-4f9bd2e5458e",
+      "comment": "",
+      "command": "click",
+      "target": "id=form-group--5",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4c982d28-ca56-47af-a86f-e4d7785c4f8c",
+      "comment": "",
+      "command": "type",
+      "target": "id=form-group--5",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3153d294-348c-40fc-9ee6-ec0b6aa8bde6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.udlite-btn-brand",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "95733803-4a15-4a50-8fd3-d0d58583076d",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": "password"
+    }]
+  }],
+  "suites": [{
+    "id": "370c3efe-1a7b-4622-887f-2704900dba6b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["b58e3fb2-d6e6-48e8-b6cc-c2737c39b3c1"]
+  }],
+  "urls": ["https://www.udemy.com/"],
+  "plugins": []
+}

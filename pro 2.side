@@ -1,0 +1,149 @@
+{
+  "id": "9048541a-7662-4ae0-8235-48632809e3ef",
+  "version": "2.0",
+  "name": "pro 2",
+  "url": "https://www.udemy.com",
+  "tests": [{
+    "id": "2c2fb8a7-f519-4f8c-9bc4-e8d5e9b13162",
+    "name": "t 2",
+    "commands": [{
+      "id": "908caa88-ee73-493d-bc41-ad958f15d1ce",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2c15625f-40b6-4353-b343-c199d7c81ef2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "918x662",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c2661022-6453-4316-8323-2a1c0ecd3da1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header--gap-auth-button--7KoL0 > .udlite-btn-secondary > span",
+      "targets": [
+        ["css=.header--gap-auth-button--7KoL0 > .udlite-btn-secondary > span", "css:finder"],
+        ["xpath=//body[@id='udemy']/div/div/div[3]/div[6]/a/span", "xpath:idRelative"],
+        ["xpath=//div[6]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Log in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6027b6b3-1600-4c07-b475-00f2395120e8",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_password",
+      "targets": [
+        ["id=id_password", "id"],
+        ["name=password", "name"],
+        ["css=#id_password", "css:finder"],
+        ["xpath=//input[@id='id_password']", "xpath:attributes"],
+        ["xpath=//div[@id='tooltip-reference-password']/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc0ab1ea-a0e4-4b9a-8a77-9775f5146b94",
+      "comment": "",
+      "command": "type",
+      "target": "id=id_password",
+      "targets": [
+        ["id=id_password", "id"],
+        ["name=password", "name"],
+        ["css=#id_password", "css:finder"],
+        ["xpath=//input[@id='id_password']", "xpath:attributes"],
+        ["xpath=//div[@id='tooltip-reference-password']/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "saikrishna@134"
+    }, {
+      "id": "0b6bbba4-b866-474c-b17e-d56c5ff86eb7",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit-id-submit",
+      "targets": [
+        ["id=submit-id-submit", "id"],
+        ["name=submit", "name"],
+        ["css=#submit-id-submit", "css:finder"],
+        ["xpath=//input[@id='submit-id-submit']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d04f9e44-ae58-415f-9521-d9c98641f64e",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "5ae451af-b554-4962-87bf-10fab924881d",
+    "name": "t2 demo",
+    "commands": [{
+      "id": "db408c1a-a256-4a34-a1d3-671e0ee070b6",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5b2d246f-24eb-4340-b284-8ed6d42a625b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "918x662",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8f172605-51a6-4226-acbb-ffb887d5c858",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header--gap-auth-button--7KoL0 > .udlite-btn-secondary > span",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5aeb11a0-4634-4052-9227-fa6ed4dcdc9a",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_password",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bd398570-9518-4da5-a0b3-c771c8ef0590",
+      "comment": "",
+      "command": "type",
+      "target": "id=id_password",
+      "targets": [],
+      "value": "saikrishna@134"
+    }, {
+      "id": "b1671986-390c-4574-9dbf-1e30f697250c",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit-id-submit",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1e0ecc1d-7f2a-48fa-bbee-e1866ab52753",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "477f1390-7a36-4e42-8da0-493de1b583db",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["2c2fb8a7-f519-4f8c-9bc4-e8d5e9b13162"]
+  }],
+  "urls": ["https://www.udemy.com/"],
+  "plugins": []
+}

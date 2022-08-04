@@ -1,0 +1,191 @@
+{
+  "id": "e86c2c07-cfe9-4a46-bbc5-8201237c9cfe",
+  "version": "2.0",
+  "name": "youtube",
+  "url": "https://www.google.co.in",
+  "tests": [{
+    "id": "535a2421-2f6b-4051-b4bd-6e6d8a653849",
+    "name": "you tube demo",
+    "commands": [{
+      "id": "9d16751f-29c6-43a5-b196-9921aef60f5c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "010b6cca-21c6-48bd-90e4-2a492bb894be",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "918x662",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "53b79783-3542-47c0-9e10-1cdfb2c4d02c",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "you"
+    }, {
+      "id": "6d9f7032-3837-446a-9679-23b606f7b527",
+      "comment": "",
+      "command": "click",
+      "target": "css=.WggQGd > span",
+      "targets": [
+        ["css=.WggQGd > span", "css:finder"],
+        ["xpath=//div[2]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'YouTube')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "178b03df-6ce0-4f6b-b6aa-efee12f9970e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tF2Cxc > .yuRUbf .LC20lb",
+      "targets": [
+        ["css=.tF2Cxc > .yuRUbf .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'YouTube')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c260a66-bb1f-48bd-ba8d-0467991ea13c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#contents > .style-scope:nth-child(1) > #contents > .style-scope:nth-child(2) > #content #thumbnail #img",
+      "targets": [
+        ["css=#contents > .style-scope:nth-child(1) > #contents > .style-scope:nth-child(2) > #content #thumbnail #img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://i.ytimg.com/vi/BIMIKceltaU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBGY0o5zoizxmb3HMImxzWVKamcCw')]", "xpath:img"],
+        ["xpath=(//img[@id='img'])[4]", "xpath:attributes"],
+        ["xpath=(//a[@id='thumbnail']/yt-img-shadow/img)[2]", "xpath:idRelative"],
+        ["xpath=//div/ytd-thumbnail/a/yt-img-shadow/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "88a419a3-e601-4309-9c2b-2f61569f5652",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#contents > .style-scope:nth-child(1) > #contents > .style-scope:nth-child(2) > #content #thumbnail #img",
+      "targets": [
+        ["css=#contents > .style-scope:nth-child(1) > #contents > .style-scope:nth-child(2) > #content #thumbnail #img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://i.ytimg.com/vi/BIMIKceltaU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBGY0o5zoizxmb3HMImxzWVKamcCw')]", "xpath:img"],
+        ["xpath=(//img[@id='img'])[4]", "xpath:attributes"],
+        ["xpath=(//a[@id='thumbnail']/yt-img-shadow/img)[2]", "xpath:idRelative"],
+        ["xpath=//div/ytd-thumbnail/a/yt-img-shadow/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "66a48e46-e451-4e24-9126-048f86a848e6",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1007.3333129882812)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "88d72057-0eb5-406d-bbc8-9b87444f6aed",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1400)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "287a1da5-5529-4d0e-847e-682568cffdfe",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "7b994278-2e55-41cf-9533-57b51fecf6a9",
+    "name": "you tube test demo",
+    "commands": [{
+      "id": "59b61dee-93c3-4f3f-a058-48e0d294bf28",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "38a508d0-3fcd-4c5b-b85b-7fef59db1c42",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "918x662",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f98ead8a-d794-4898-be32-99abda69481b",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [],
+      "value": "you"
+    }, {
+      "id": "772f4064-54ea-43d3-a059-680fec0ebb78",
+      "comment": "",
+      "command": "click",
+      "target": "css=.WggQGd > span",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4e570269-f0d1-4986-89a3-4d189b5d35eb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tF2Cxc > .yuRUbf .LC20lb",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "515f65d0-3c59-4adf-b2da-1df29b7ced27",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#contents > .style-scope:nth-child(1) > #contents > .style-scope:nth-child(2) > #content #thumbnail #img",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "28ca4004-d09d-4ff0-a18e-a6276dda9ed6",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#contents > .style-scope:nth-child(1) > #contents > .style-scope:nth-child(2) > #content #thumbnail #img",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "52a6e104-6327-4b55-8d36-02ec5e7644f4",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1007.3333129882812)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c4939be7-ce48-49d3-b17f-a199c55b59b6",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1400)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "15a36521-ffae-49d6-8321-85d6b1e9cf6b",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "f8b218c4-786b-497f-8eaa-8fc02a140a54",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["535a2421-2f6b-4051-b4bd-6e6d8a653849"]
+  }],
+  "urls": ["https://www.google.co.in/"],
+  "plugins": []
+}
