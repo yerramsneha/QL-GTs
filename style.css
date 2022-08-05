@@ -1,5 +1,6 @@
 .body{
     color: cornflowerblue;
+    
 
     
 }
@@ -9,10 +10,9 @@
     margin:10 0 0 450px;
     overflow:hidden;
     padding:75px;
-    background: #35b635;
-    background: url(img8.jpg);
-    
-
+    background-image: url('img8.jpg'); 
+    background-position: no-repeat;
+    backface-visibility: fixed;
 }
 h2{
     text-align:center;
